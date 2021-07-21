@@ -1,7 +1,7 @@
-### [Download TMIQS](https://github.com/phob144/TMInterfaceQuickScript/releases)
-### [Download donadigo's TMInterface](https://donadigo.github.io/tminterface)
+**[Download TMIQS](https://github.com/phob144/TMInterfaceQuickScript/releases)**  
+**[Download donadigo's TMInterface](https://donadigo.github.io/tminterface)**
 
-This project is in early stage of development. Please [open an issue](https://github.com/phob144/TMInterfaceQuickScript/issues/new) if you found a major bug or anything.
+This project is in early stage of development. Please [open an issue](https://github.com/phob144/TMInterfaceQuickScript/issues/new) if you found a major bug or anything.  
 
 # How to use TMIQS
 
