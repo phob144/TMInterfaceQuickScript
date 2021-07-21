@@ -13,13 +13,13 @@ namespace TMInterfaceQuickScript
 
             string qsFolderPath = Path.Combine(config.ScriptFolderPath, "qs");
 
-            // create qs file/directory and open the directory
+            if (!Directory.Exists(qsFolderPath))
+                Directory.CreateDirectory(qsFolderPath);
+
+            // create qs file
             if (args.Length == 1)
             {
                 string inputPath = Path.Combine(qsFolderPath, $"{args[0]}.qs");
-
-                if (!Directory.Exists(qsFolderPath))
-                    Directory.CreateDirectory(qsFolderPath);
 
                 if (!File.Exists(inputPath))
                     File.Create(inputPath);
