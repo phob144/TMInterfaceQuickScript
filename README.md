@@ -1,3 +1,5 @@
+**[Download donadigo's TMInterface](https://donadigo.github.io/tminterface)**
+
 **This project is in early stage of development. Please [open an issue](https://github.com/phob144/TMInterfaceQuickScript/issues/new) if you found a major bug or have an idea for a feature :)**
 
 # How to use TMIQS
