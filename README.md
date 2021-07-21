@@ -9,9 +9,9 @@ This project is in early stage of development. Please [open an issue](https://gi
 You will need to install the [.NET 5 Runtime](https://dotnet.microsoft.com/download/dotnet/5.0) to start TMIQS. Before running the program, make sure to open **config.json** and set **ScriptFolderPath** to the TMInterface script folder.
 
 ### Creating and compiling TMIQS script files
-Open the TMIQS application folder in command line using `cd <path>` and type in `tmiqs <script name>` to automatically create a new script file. The program will begin listening for any file changes and compiling the scripts into TMInterface commands.
+Open the TMIQS application folder in command line using `cd <path>` and type in `tmiqs <script name>` to automatically create a new script file.
 
-If you want to only start compiling, type in `tmiqs` or start **tmiqs.exe** by itself.
+If you want to start compiling, type in `tmiqs` or start **tmiqs.exe** by itself.
 
 Once you're done scripting, press **CTRL+C** or close the window to stop compiling.
 
