@@ -1,0 +1,14 @@
+{
+    "ScriptFolderPath": ".",
+    "CommandTranslations": {
+        "u": "press up",
+        "d": "press down",
+        "l": "press left",
+        "r": "press right",
+        "-u": "rel up",
+        "-d": "rel down",
+        "-l": "rel left",
+        "-r": "rel right",
+        "s": "steer"
+    }
+}
