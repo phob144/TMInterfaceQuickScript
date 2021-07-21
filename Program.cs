@@ -16,13 +16,15 @@ namespace TMInterfaceQuickScript
             if (!Directory.Exists(qsFolderPath))
                 Directory.CreateDirectory(qsFolderPath);
 
-            // create qs file
+            // create qs file and return
             if (args.Length == 1)
             {
                 string inputPath = Path.Combine(qsFolderPath, $"{args[0]}.qs");
 
                 if (!File.Exists(inputPath))
                     File.Create(inputPath);
+
+                return;
             }
 
             var watcher = new FileSystemWatcher(qsFolderPath, "*.qs")
